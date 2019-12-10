@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"Enter to values"<<endl;
+	cin>>a>>b;
+	cout<<"Enter 1 for Addition"<<endl<<"for Substraction 2"<<endl<<" for Multiplication 3"<<endl<<"for Division 4"<<endl;
+	cin>>c;
+	if(c==1)
+	{
+		cout<<a+b;
+	}
+	else if (c==2)
+	{
+		cout<<a-b;
+	}
+	else if (c==3)
+	{
+		cout<<a*b;
+	}
+	else if (c==4)
+	{
+		cout<<a/b;
+	}
+	else 
+	{
+		cout<<"Please provide valid input"<<endl;
+	}
+	return 0;
+}
