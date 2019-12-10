@@ -1,5 +1,21 @@
 #include <iostream>
 using namespace std;
+void sum (int c,int d)
+{
+	cout<<c+d;
+}
+void subtraction (int c,int d)
+{
+	cout<<c-d;
+}
+void multiplication (int c,int d)
+{
+	cout<<c*d;
+}
+void division (int c,int d)
+{
+	cout<<c/d;
+}
 int main()
 {
 	int a,b,c;
@@ -9,19 +25,19 @@ int main()
 	cin>>c;
 	if(c==1)
 	{
-		cout<<a+b;
+		sum(a,b);
 	}
 	else if (c==2)
 	{
-		cout<<a-b;
+		subtraction(a,b);
 	}
 	else if (c==3)
 	{
-		cout<<a*b;
+		multiplication(a,b);
 	}
 	else if (c==4)
 	{
-		cout<<a/b;
+		division(a,b);
 	}
 	else 
 	{
